@@ -17,10 +17,10 @@ const Card = ({ cat, onSwipe, isTop }) => {
     const threshold = 100; // Drag distance required to trigger swipe
     if (info.offset.x > threshold) {
       setExitX(200);
-      onSwipe("right");  // Swipe right = like ❤️
+      onSwipe("left");  // Drag left = pass ✕
     } else if (info.offset.x < -threshold) {
       setExitX(-200);
-      onSwipe("left");  // Swipe left = pass ✕
+      onSwipe("right");  // Drag right = like ❤️
     }
   };
 

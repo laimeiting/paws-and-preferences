@@ -161,7 +161,7 @@ const App = () => {
         </button>
       </div>
       
-      <p className="hint">Swipe Left to Like ❤️ • Right to Pass ✕</p>
+      <p className="hint">Swipe Left to Pass ✕ • Right to Like ❤️</p>
     </div>
   );
 };
